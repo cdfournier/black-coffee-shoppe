@@ -1,0 +1,747 @@
+/* ------------------------------------------
+  SITE COLORS
+---------------------------------------------
+
+  White
+  #fff;
+  rgba(255,255,255,1);
+  
+  Black
+  #0e0e0c;
+  rgba(14,14,12,1);
+*/
+
+
+/* ------------------------------------------
+  BASE SITE STYLES
+--------------------------------------------- */
+
+html {
+  font-size: 16px;
+  height: 100%;
+  overflow: visible;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  width: 100%;
+  height: 100%;
+  margin: 0 auto !important;
+  padding: 0;
+  background-color: #fff;
+  overflow: visible;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #000;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #000;
+  color: #fff;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+/* ------------------------------------------
+  FONTS
+--------------------------------------------- */
+
+@font-face {
+    font-family: "proximanova-light";
+    src: url("../fonts/proximanova/proximanova-light-webfont.eot");
+    src: url("../fonts/proximanova/proximanova-light-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/proximanova/proximanova-light-webfont.woff") format("woff"),
+         url("../fonts/proximanova/proximanova-light-webfont.ttf") format("truetype"),
+         url("../fonts/proximanova/proximanova-light-webfont.svg#stag/proximanova-light-webfont") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "proximanova-regular";
+    src: url("../fonts/proximanova/proximanova-regular-webfont.eot");
+    src: url("../fonts/proximanova/proximanova-regular-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/proximanova/proximanova-regular-webfont.woff") format("woff"),
+         url("../fonts/proximanova/proximanova-regular-webfont.ttf") format("truetype"),
+         url("../fonts/proximanova/proximanova-regular-webfont.svg#stag/proximanova-regular-webfont") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "proximanova-bold";
+    src: url("../fonts/proximanova/proximanova-bold-webfont.eot");
+    src: url("../fonts/proximanova/proximanova-bold-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/proximanova/proximanova-bold-webfont.woff") format("woff"),
+         url("../fonts/proximanova/proximanova-bold-webfont.ttf") format("truetype"),
+         url("../fonts/proximanova/proximanova-bold-webfont.svg#stag/proximanova-bold-webfont") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "proximanova-black";
+    src: url("../fonts/proximanova/proximanova-black-webfont.eot");
+    src: url("../fonts/proximanova/proximanova-black-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/proximanova/proximanova-black-webfont.woff") format("woff"),
+         url("../fonts/proximanova/proximanova-black-webfont.ttf") format("truetype"),
+         url("../fonts/proximanova/proximanova-black-webfont.svg#stag/proximanova-black-webfont") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* ------------------------------------------
+  TYPOGRAPHY
+--------------------------------------------- */
+
+h1 {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'proximanova-light', sans-serif;
+  font-size: 1.75rem;
+  font-weight: inherit;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+}
+
+h2 {
+  display: block;
+  width: 100%;
+  margin: 0 0 1rem;
+  padding: 0;
+  font-family: 'proximanova-bold', sans-serif;
+  font-size: 1.75rem;
+  font-weight: inherit;
+  line-height: 1;
+  text-align: left;
+  color: #000;
+}
+
+h3 {
+  display: block;
+  width: 100%;
+  margin: 0 0 1rem;
+  padding: 0;
+  font-family: 'proximanova-bold', sans-serif;
+  font-size: 1.5rem;
+  font-weight: inherit;
+  line-height: 1;
+  text-align: center;
+  color: #000;
+}
+
+p {
+  display: block;
+  margin: 0 0 1rem;
+  font-family: 'proximanova-light', sans-serif;
+  font-size: 1rem;
+  font-weight: inherit;
+  line-height: 2;
+  color: #000;
+}
+
+p:last-child {
+  margin: 0;
+}
+
+p a {
+  font-family: 'proximanova-regular', sans-serif;
+  font-weight: inherit;
+  text-decoration: none;
+  color: #000;
+  -moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+p a:hover,
+p a:focus {
+  opacity: 0.7;
+}
+
+@media (min-width: 30em) {h3 {text-align: left;}}
+
+@media (min-width: 41.6875em) {h1 {font-size: 1.75rem;}}
+
+@media (min-width: 48em) {
+h1 {font-size: 2.5rem;}
+h2 {font-size: 2.5rem;}
+h3 {font-size: 1.75rem;}
+p {
+  margin: 0 0 1.5rem;
+  font-size: 1.25rem;
+}}
+
+@media screen and (min-width: 75em) {
+h2 {font-size: 3rem;}
+h3 {font-size: 2rem;}}
+
+
+/* ------------------------------------------
+  HEADER
+--------------------------------------------- */
+
+header {
+  display: flex;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 3rem;
+  background-color: #fff;
+}
+
+
+/* ------------------------------------------
+  NAVIGATION
+--------------------------------------------- */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0;
+  padding: 0 5%;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav ul li a {
+  padding: 0;
+  font-family: 'proximanova-light', sans-serif;
+  font-size: 0.75rem;
+  font-weight: inherit;
+  letter-spacing: 1px;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  -moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a:focus,
+nav ul li a:active {
+  opacity: 0.7;
+}
+
+@media screen and (min-width: 30em) {
+nav ul {justify-content: flex-start;}
+nav ul li a {padding: 0 1rem 0 0;}}
+
+@media screen and (min-width: 48em) {nav {padding: 0 2.5%;}}
+
+@media screen and (min-width: 64em) {
+nav {width: 60%;}}
+
+
+/* ------------------------------------------
+  LOGO
+--------------------------------------------- */
+
+.logo {
+  display: block;
+  width: 40%;
+  margin: 2rem 30% 1rem 30%;
+  padding: 0;
+}
+
+.logo object, 
+.logo img {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (min-width: 64em) {
+.logo {
+  width: 30%;
+  margin: 2rem 35% 1rem 35%;
+}}
+
+
+/* ------------------------------------------
+  WELCOME
+--------------------------------------------- */
+
+#welcome {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  margin: 0;
+  min-height: 100%;
+  padding: 5%;
+  background-image: url(../img/bg-welcome.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.no-touch #welcome {background-attachment: fixed;}
+
+@media screen and (min-width: 48em) {#welcome {background-position: center top;}}
+
+@media screen and (min-width: 64em) {#welcome {background-position: center center;}}
+
+
+/* ------------------------------------------
+  SECTIONS
+--------------------------------------------- */
+
+#about,
+#work,
+#contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding: 3rem 5%;
+}
+
+@media screen and (min-width: 48em) {
+#about,
+#work,
+#contact {padding: 3rem 2.5%;}}
+
+@media (min-width: 64em) {
+#about {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}}
+
+
+/* ------------------------------------------
+  ABOUT US
+--------------------------------------------- */
+
+#about article {
+  display: block;
+  width: 100%;
+  padding: 0 0 5% 0;
+  color: #000;
+}
+
+#about article h2 {
+  line-height: 1.5;
+}
+
+#about aside {
+  display: block;
+  width: 100%;
+  padding: 5% 0;
+  color: #000;
+}
+
+#about aside ul {
+	margin: 0;
+	padding: 0;
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	-o-column-break-inside: avoid;
+	-ms-column-break-inside: avoid;
+	column-break-inside: avoid;
+	-moz-column-count: 1;
+	-webkit-column-count: 1;
+	column-count: 1;
+}
+
+#about aside ul li {
+	margin: 0 0 0.75rem;
+  font-family: 'proximanova-light', sans-serif;
+	font-size: 1rem;
+	font-weight: inherit;
+	line-height: 1.25;
+	list-style-type: none;
+	text-align: center;
+  color: #000;
+}
+
+@media (min-width: 30em) {
+#about aside ul {
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
+  -moz-column-gap: 3rem;
+  -webkit-column-gap: 3rem;
+  column-gap: 3rem;
+}
+#about aside ul li {text-align: left;}}
+
+@media (min-width: 46em) {
+#about aside ul {
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-count: 3;
+}}
+
+@media (min-width: 64em) {
+#about article {
+  width: 65%;
+  margin: 0 10% 0 0;
+  padding: 0;
+}
+#about aside {
+  width: 25%;
+  padding: 0 0 0 2.5%;
+  border-left: 1px solid #ccc;
+}
+#about aside ul {
+  -moz-column-count: 1;
+  -webkit-column-count: 1;
+  column-count: 1;
+}}
+
+
+/* ------------------------------------------
+  WORK
+--------------------------------------------- */
+
+#work h2 {
+  margin: 0 0 0.5rem;
+  line-height: 1;
+}
+
+#work span {
+  display: block;
+  margin: 0 0 1rem;
+  font-family: 'proximanova-bold', sans-serif;
+  font-size: 0.75rem;
+  font-weight: inherit;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+.project {
+  display: inline-block;
+  margin: 0 0 4rem;
+  padding: 0;
+}
+
+.left.box-small,
+.right.box-small,
+.left.box-wide,
+.right.box-wide {
+  display: block;
+	margin: 5% 0;
+}
+
+.left.box-small,
+.right.box-small {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+}
+
+.left.box-wide,
+.right.box-wide {
+  width: 100%;
+  height: 0;
+  padding-bottom: 66.67%;
+}
+
+.project-link {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+
+.project-link a {
+	width: auto;
+	margin: 1rem auto 0;
+	padding: 0.5rem 1rem;
+	border: 1px solid #000;
+  font-family: 'proximanova-bold', sans-serif;
+	font-size: 0.75rem;
+	font-weight: inherit;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+	background-color: #fff;
+	cursor: pointer;
+  -moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.project-link a:hover,
+.project-link a:focus {
+	background-color: #000;
+	color: #fff;
+}
+
+@media screen and (min-width: 30em) {
+.left.box-wide,
+.right.box-wide {
+  float: left;
+  margin: 1.25% 0;
+}
+.right.box-small {
+  float: left;
+  width: 48.75%;
+  margin: 1.25% 1.25% 1.25% 0;
+  padding-bottom: 48.75%;
+}
+.left.box-small {
+  float: left;
+  width: 48.75%;
+  margin: 1.25% 0 1.25% 1.25%;
+  padding-bottom: 48.75%;
+}}
+
+@media screen and (min-width: 35.5em) {
+.project-link {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.project-link a {margin: 0 1% 0 0;}}
+
+@media screen and (min-width: 48em) {
+.left.box-wide,
+.right.box-wide {
+  width: 58.5%;
+  padding: 0 0 39%;
+}
+.left.box-small,
+.right.box-small {
+  width: 39%;
+  padding: 0 0 39%;
+}
+.left.box-wide,
+.left.box-small {margin: 0 1.25% 2.5% 0;}
+.right.box-wide,
+.right.box-small {margin: 0 0 2.5% 1.25%;}}
+
+@media screen and (min-width: 75em) {
+#work span {
+  font-size: 1rem;
+  line-height: 1rem;
+}}
+
+
+/* ------------------------------------------
+  CONTACT
+--------------------------------------------- */
+
+#contact {
+  background-image: url(../img/stains.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form {
+	width: 100%;
+  margin: 2rem auto 0;
+  padding: 0;
+}
+ 
+.field {
+  display: flex;
+  flex-flow: column-reverse;
+  margin-bottom: 1em;
+}
+
+label, input {
+  -moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+  touch-action: manipulation;
+}
+
+input {
+  padding: 0 0 1rem;
+  border: 0;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+  font-size: 1em;
+  font-family: 'proximanova-light', sans-serif;
+	font-size: 0.875rem;
+	font-weight: inherit;
+	line-height: 1;
+	background-color: transparent;
+  -webkit-appearance: none;
+  cursor: text;
+}
+
+input:focus {
+  outline: 0;
+}
+
+label {
+  margin: 0 0 1rem;
+  font-family: 'proximanova-regular', sans-serif;
+	font-size: 0.875rem;
+	font-weight: inherit;
+	line-height: 1;
+	color: #000;
+}
+
+input:placeholder-shown + label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: text;
+  transform-origin: left bottom;
+  transform: translate(0,2rem);
+}
+
+::-webkit-input-placeholder {
+  opacity: 0;
+  transition: inherit;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+input:not(:placeholder-shown) + label,
+input:focus + label {
+  transform: translate(0,0);
+  cursor: pointer;
+}
+
+button {
+	width: auto;
+	margin: 1rem auto 0;
+	padding: 0.5rem 2rem;
+	border: 1px solid #000;
+  font-family: 'proximanova-bold', sans-serif;
+	font-size: 0.875rem;
+	font-weight: inherit;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #fff;
+	cursor: pointer;
+  -moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+button:hover, button:focus {
+	background-color: #000;
+	color: #fff;
+}
+
+#feedback {
+  display: flex;
+  width: 100%;
+  margin: 2rem 0 0;
+}
+
+@media (min-width: 48em) {
+form {
+	width: 80%;
+  margin: 2rem 20% 0 0;
+}
+input, label {font-size: 1rem;}}
+
+
+/* ------------------------------------------
+  FOOTER
+--------------------------------------------- */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding: 5%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+@media (min-width: 48em) {
+footer {padding: 2.5%;}
+footer p {
+  font-size: 0.875rem;
+  text-align: left;
+}}
+
+
+/* ------------------------------------------
+  INTERSTITIALS
+--------------------------------------------- */
+
+#cafe,
+#chemex,
+#espresso {
+  display: flex;
+  width: 100%;
+  margin: 0 0 1rem;
+  min-height: 60%;
+  padding: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cafe {background-image: url(../img/bg-cafe.jpg);}
+
+#chemex {background-image: url(../img/bg-chemex.jpg);}
+
+#espresso {background-image: url(../img/bg-espresso.jpg);}
+
+.no-touch #welcome,
+.no-touch #cafe,
+.no-touch #chemex,
+.no-touch #espresso {background-attachment: fixed;}
