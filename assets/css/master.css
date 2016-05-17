@@ -76,6 +76,7 @@ img {
   FONTS
 --------------------------------------------- */
 
+/*
 @font-face {
     font-family: "proximanova-light";
     src: url("../fonts/proximanova/proximanova-light-webfont.eot");
@@ -86,6 +87,7 @@ img {
     font-weight: normal;
     font-style: normal;
 }
+*/
 
 @font-face {
     font-family: "proximanova-regular";
@@ -608,7 +610,6 @@ input {
   border: 0;
   border-bottom: 1px solid #000;
   border-radius: 0;
-  font-size: 1em;
   font-family: 'proximanova-light', sans-serif;
 	font-size: 0.875rem;
 	font-weight: inherit;
