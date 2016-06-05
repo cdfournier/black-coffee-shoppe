@@ -148,7 +148,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="right box-small reveal"><img src="assets/img/work-myphishtory-02.jpg" alt="My Phishtory songs section on an iPad"></div>
     <div class="left box-small reveal"><img src="assets/img/work-myphishtory-03.jpg" alt="My Phishtory shows section on an iPad"></div>
     <div class="right box-wide reveal"><img src="assets/img/work-myphishtory-04.jpg" alt="My Phishtory welcome section on an iMac"></div>
-<!--     <div class="project-link reveal"><a href="http://blackcoffeeshoppe.com/myphishtory/" target="_blank">Visit My Phishtory</a></div> -->
+    <div class="project-link reveal"><a href="http://myphishtory.blackcoffeeshoppe.com/" target="_blank">Visit My Phishtory</a></div>
   </div>
   <div class="project">
     <h2>Holiday Greeting Cards</h2>
