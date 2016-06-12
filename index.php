@@ -143,7 +143,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </div>
   <div class="project">
     <h2>My Phishtory</h2>
-    <span>Graphic Design, html, css, jQuery, Responsive Design</span>
+    <span>html, css, jQuery, Responsive Design</span>
     <div class="left box-wide reveal"><img src="assets/img/work-myphishtory-01.jpg" alt="My Phishtory shows section on an iMac"></div>
     <div class="right box-small reveal"><img src="assets/img/work-myphishtory-02.jpg" alt="My Phishtory songs section on an iPad"></div>
     <div class="left box-small reveal"><img src="assets/img/work-myphishtory-03.jpg" alt="My Phishtory shows section on an iPad"></div>
