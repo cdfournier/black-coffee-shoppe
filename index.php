@@ -59,6 +59,7 @@
 
 
 <body>
+
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MS7JQ9"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -129,8 +130,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="left box-small reveal"><img src="assets/img/work-shit-roger-sterling-said-01.jpg" alt="Shit Roger Sterling Said on an iPad"></div>
     <div class="right box-wide reveal"><img src="assets/img/work-shit-roger-sterling-said-02.jpg" alt="Shit Roger Sterling Said on an iMac"></div>
     <div class="project-link reveal">
-      <a href="http://blackcoffeeshoppe.com/sdds/" target="_blank">Visit Shit Don Draper Said</a>
-      <a href="http://blackcoffeeshoppe.com/srss/" target="_blank">Visit Shit Roger Sterling Said</a>
+      <a id="sdds" href="http://blackcoffeeshoppe.com/sdds/" target="_blank">Visit Shit Don Draper Said</a>
+      <a id="srss" href="http://blackcoffeeshoppe.com/srss/" target="_blank">Visit Shit Roger Sterling Said</a>
     </div>
   </div>
   <div class="project">
@@ -148,7 +149,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="right box-small reveal"><img src="assets/img/work-myphishtory-02.jpg" alt="My Phishtory songs section on an iPad"></div>
     <div class="left box-small reveal"><img src="assets/img/work-myphishtory-03.jpg" alt="My Phishtory shows section on an iPad"></div>
     <div class="right box-wide reveal"><img src="assets/img/work-myphishtory-04.jpg" alt="My Phishtory welcome section on an iMac"></div>
-    <div class="project-link reveal"><a href="http://myphishtory.blackcoffeeshoppe.com/" target="_blank">Visit My Phishtory</a></div>
+    <div class="project-link reveal"><a id="myphishtory" href="http://myphishtory.blackcoffeeshoppe.com/" target="_blank">Visit My Phishtory</a></div>
   </div>
   <div class="project">
     <h2>Holiday Greeting Cards</h2>
