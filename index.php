@@ -52,8 +52,11 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-44441011-1', 'auto');
+  ga('require', 'autotrack');
   ga('send', 'pageview');
 </script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script async src='assets/js/autotrack.js'></script>
 
 </head>
 
