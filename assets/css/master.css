@@ -76,48 +76,46 @@ img {
   FONTS
 --------------------------------------------- */
 
-/*
 @font-face {
-    font-family: "proximanova-light";
-    src: url("../fonts/proximanova/proximanova-light-webfont.eot");
-    src: url("../fonts/proximanova/proximanova-light-webfont.eot?#iefix") format("embedded-opentype"),
-         url("../fonts/proximanova/proximanova-light-webfont.woff") format("woff"),
-         url("../fonts/proximanova/proximanova-light-webfont.ttf") format("truetype"),
-         url("../fonts/proximanova/proximanova-light-webfont.svg#stag/proximanova-light-webfont") format("svg");
-    font-weight: normal;
-    font-style: normal;
-}
-*/
-
-@font-face {
-    font-family: "proximanova-regular";
-    src: url("../fonts/proximanova/proximanova-regular-webfont.eot");
-    src: url("../fonts/proximanova/proximanova-regular-webfont.eot?#iefix") format("embedded-opentype"),
-         url("../fonts/proximanova/proximanova-regular-webfont.woff") format("woff"),
-         url("../fonts/proximanova/proximanova-regular-webfont.ttf") format("truetype"),
-         url("../fonts/proximanova/proximanova-regular-webfont.svg#stag/proximanova-regular-webfont") format("svg");
+  font-family: "metropolis-light";
+    src: url("../fonts/metropolis/metropolis-light.eot");
+    src: url("../fonts/metropolis/metropolis-light.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/metropolis/metropolis-light.woff") format("woff"),
+         url("../fonts/metropolis/metropolis-light.woff2") format("woff2"),
+         url("../fonts/metropolis/metropolis-light.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "proximanova-bold";
-    src: url("../fonts/proximanova/proximanova-bold-webfont.eot");
-    src: url("../fonts/proximanova/proximanova-bold-webfont.eot?#iefix") format("embedded-opentype"),
-         url("../fonts/proximanova/proximanova-bold-webfont.woff") format("woff"),
-         url("../fonts/proximanova/proximanova-bold-webfont.ttf") format("truetype"),
-         url("../fonts/proximanova/proximanova-bold-webfont.svg#stag/proximanova-bold-webfont") format("svg");
+  font-family: "metropolis-regular";
+    src: url("../fonts/metropolis/metropolis-regular.eot");
+    src: url("../fonts/metropolis/metropolis-regular.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/metropolis/metropolis-regular.woff") format("woff"),
+         url("../fonts/metropolis/metropolis-regular.woff2") format("woff2"),
+         url("../fonts/metropolis/metropolis-regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "proximanova-black";
-    src: url("../fonts/proximanova/proximanova-black-webfont.eot");
-    src: url("../fonts/proximanova/proximanova-black-webfont.eot?#iefix") format("embedded-opentype"),
-         url("../fonts/proximanova/proximanova-black-webfont.woff") format("woff"),
-         url("../fonts/proximanova/proximanova-black-webfont.ttf") format("truetype"),
-         url("../fonts/proximanova/proximanova-black-webfont.svg#stag/proximanova-black-webfont") format("svg");
+  font-family: "metropolis-bold";
+    src: url("../fonts/metropolis/metropolis-bold.eot");
+    src: url("../fonts/metropolis/metropolis-bold.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/metropolis/metropolis-bold.woff") format("woff"),
+         url("../fonts/metropolis/metropolis-bold.woff2") format("woff2"),
+         url("../fonts/metropolis/metropolis-bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "metropolis-black";
+    src: url("../fonts/metropolis/metropolis-black.eot");
+    src: url("../fonts/metropolis/metropolis-black.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/metropolis/metropolis-black.woff") format("woff"),
+         url("../fonts/metropolis/metropolis-black.woff2") format("woff2"),
+         url("../fonts/metropolis/metropolis-black.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -132,7 +130,7 @@ h1 {
   width: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'proximanova-light', sans-serif;
+  font-family: 'metropolis-light', sans-serif;
   font-size: 1.75rem;
   font-weight: inherit;
   line-height: 1.5;
@@ -145,7 +143,7 @@ h2 {
   width: 100%;
   margin: 0 0 1rem;
   padding: 0;
-  font-family: 'proximanova-bold', sans-serif;
+  font-family: 'metropolis-bold', sans-serif;
   font-size: 1.75rem;
   font-weight: inherit;
   line-height: 1;
@@ -158,7 +156,7 @@ h3 {
   width: 100%;
   margin: 0 0 1rem;
   padding: 0;
-  font-family: 'proximanova-bold', sans-serif;
+  font-family: 'metropolis-bold', sans-serif;
   font-size: 1.5rem;
   font-weight: inherit;
   line-height: 1;
@@ -169,7 +167,7 @@ h3 {
 p {
   display: block;
   margin: 0 0 1rem;
-  font-family: 'proximanova-light', sans-serif;
+  font-family: 'metropolis-light', sans-serif;
   font-size: 1rem;
   font-weight: inherit;
   line-height: 2;
@@ -181,7 +179,7 @@ p:last-child {
 }
 
 p a {
-  font-family: 'proximanova-regular', sans-serif;
+  font-family: 'metropolis-regular', sans-serif;
   font-weight: inherit;
   text-decoration: none;
   color: #000;
@@ -254,7 +252,7 @@ nav ul {
 
 nav ul li a {
   padding: 0;
-  font-family: 'proximanova-light', sans-serif;
+  font-family: 'metropolis-light', sans-serif;
   font-size: 0.75rem;
   font-weight: inherit;
   letter-spacing: 1px;
@@ -400,7 +398,7 @@ nav {width: 60%;}}
 
 #about aside ul li {
 	margin: 0 0 0.75rem;
-  font-family: 'proximanova-light', sans-serif;
+  font-family: 'metropolis-light', sans-serif;
 	font-size: 1rem;
 	font-weight: inherit;
 	line-height: 1.25;
@@ -457,7 +455,7 @@ nav {width: 60%;}}
 #work span {
   display: block;
   margin: 0 0 1rem;
-  font-family: 'proximanova-bold', sans-serif;
+  font-family: 'metropolis-bold', sans-serif;
   font-size: 0.75rem;
   font-weight: inherit;
   line-height: 1.25;
@@ -504,7 +502,7 @@ nav {width: 60%;}}
 	margin: 1rem auto 0;
 	padding: 0.5rem 1rem;
 	border: 1px solid #000;
-  font-family: 'proximanova-bold', sans-serif;
+  font-family: 'metropolis-bold', sans-serif;
 	font-size: 0.75rem;
 	font-weight: inherit;
 	text-align: center;
@@ -610,7 +608,7 @@ input {
   border: 0;
   border-bottom: 1px solid #000;
   border-radius: 0;
-  font-family: 'proximanova-light', sans-serif;
+  font-family: 'metropolis-light', sans-serif;
 	font-size: 0.875rem;
 	font-weight: inherit;
 	line-height: 1;
@@ -625,7 +623,7 @@ input:focus {
 
 label {
   margin: 0 0 1rem;
-  font-family: 'proximanova-regular', sans-serif;
+  font-family: 'metropolis-regular', sans-serif;
 	font-size: 0.875rem;
 	font-weight: inherit;
 	line-height: 1;
@@ -661,7 +659,7 @@ button {
 	margin: 1rem auto 0;
 	padding: 0.5rem 2rem;
 	border: 1px solid #000;
-  font-family: 'proximanova-bold', sans-serif;
+  font-family: 'metropolis-bold', sans-serif;
 	font-size: 0.875rem;
 	font-weight: inherit;
 	text-align: center;
