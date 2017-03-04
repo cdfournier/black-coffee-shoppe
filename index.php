@@ -77,7 +77,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <nav>
   	<ul role="menubar">
   		<li role="menuitem"><a href="#about" data-scroll>About</a></li>
-  		<li role="menuitem"><a href="#work" data-scroll>Work</a></li>
   		<li role="menuitem"><a href="#contact" data-scroll>Contact</a></li>
   	</ul>
 	</nav>
@@ -123,40 +122,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div id="chemex"></div>
 
-<section id="work">
-  <h1 style="display: none;">Recent Work</h1>
-  <div class="project">
-    <h2>Shit Don Draper Said</h2>
-    <span>html, css, php, Responsive Design</span>
-    <div class="left box-wide reveal"><img src="assets/img/work-shit-don-draper-said-01.jpg" alt="Shit Don Draper Said on an iMac"></div>
-    <div class="right box-small reveal"><img src="assets/img/work-shit-don-draper-said-02.jpg" alt="Shit Don Draper Said on an iPad"></div>
-    <div class="left box-small reveal"><img src="assets/img/work-shit-roger-sterling-said-01.jpg" alt="Shit Roger Sterling Said on an iPad"></div>
-    <div class="right box-wide reveal"><img src="assets/img/work-shit-roger-sterling-said-02.jpg" alt="Shit Roger Sterling Said on an iMac"></div>
-    <div class="project-link reveal">
-      <a id="sdds" href="http://blackcoffeeshoppe.com/sdds/" target="_blank" rel="noopener">Visit Shit Don Draper Said</a>
-      <a id="srss" href="http://blackcoffeeshoppe.com/srss/" target="_blank" rel="noopener">Visit Shit Roger Sterling Said</a>
-    </div>
-  </div>
-  <div class="project">
-    <h2>East Wind</h2>
-    <span>Logo, Branding &amp; Merchandising</span>
-    <div class="left box-wide reveal"><img src="assets/img/work-east-wind-01.jpg" alt="East Wind t-shirt"></div>
-    <div class="right box-small reveal"><img src="assets/img/work-east-wind-02.jpg" alt="East Wind logo on wood"></div>
-    <div class="left box-small reveal"><img src="assets/img/work-east-wind-03.jpg" alt="East Wind stamp"></div>
-    <div class="right box-wide reveal"><img src="assets/img/work-east-wind-04.jpg" alt="East Wind logo on coffee mug and notebook"></div>
-  </div>
-  <div class="project">
-    <h2>Holiday Greeting Cards</h2>
-    <span>Graphic Design</span>
-    <div class="left box-wide reveal"><img src="assets/img/work-shaich-card-01.jpg" alt="Holiday greeting card sample"></div>
-    <div class="right box-small reveal"><img src="assets/img/work-shaich-card-02.jpg" alt="Holiday greeting card sample"></div>
-    <div class="left box-small reveal"><img src="assets/img/work-shaich-card-03.jpg" alt="Holiday greeting card sample"></div>
-    <div class="right box-wide reveal"><img src="assets/img/work-shaich-card-04.jpg" alt="Holiday greeting card sample"></div>
-  </div>
-</section>
-<!-- close work -->
-
-<div id="espresso"></div>
+<!-- <div id="espresso"></div> -->
 
 <section id="contact">
   <h1 style="display: none;">Contact Black Coffee Shoppe</h1>
