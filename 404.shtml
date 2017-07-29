@@ -50,15 +50,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MS7JQ9');</script>
 <!-- End Google Tag Manager -->
 
-<header>
-  <nav>
-  	<ul role="menubar">
-  		<li><a href="http://blackcoffeeshoppe.com/#about" data-scroll>About</a></li>
-  		<li><a href="http://blackcoffeeshoppe.com/#work" data-scroll>Work</a></li>
-  		<li><a href="http://blackcoffeeshoppe.com/#contact" data-scroll>Contact</a></li>
-  	</ul>
-	</nav>
-</header> <!-- close header -->
 
 <div class="content">
 
@@ -66,12 +57,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="logo reveal"><object type="image/svg+xml" data="http://blackcoffeeshoppe.com/assets/img/logo.svg"><img class="reveal" src="http://blackcoffeeshoppe.com/assets/img/logo.png" alt="Black Coffee Shoppe logo"></object></div>
   <h1 class="reveal">Whoops. You spilled your coffee.</h1>
   <p class="reveal"><a href="http://blackcoffeeshoppe.com/" style="color: #ffffff;">How about a refill?</a></p>
+  <footer>
+    <p>Copyright &copy;2016 Black Coffee Shoppe</p>
+  </footer>
 </section> 
 <!-- close welcome -->
-
-<footer>
-  <p>Copyright &copy;2016 Black Coffee Shoppe</p>
-</footer>
 
 </div>
 <!-- close content -->
@@ -79,12 +69,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- javascript libraries -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-<script src="http://blackcoffeeshoppe.com/assets/js/blackcoffeeshoppe.js"></script>
-<script src="https://cdn.jsdelivr.net/scrollreveal.js/3.0.9/scrollreveal.min.js"></script>
-<script>
-  window.sr = ScrollReveal({ reset: true });
-  sr.reveal('.reveal');
-</script>
 
 
 </body>

@@ -1,0 +1,19 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_REFERER} !^http://blackcoffeeshoppe.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://blackcoffeeshoppe.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://mudville.blackcoffeeshoppe.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://mudville.blackcoffeeshoppe.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://chris.blackcoffeeshoppe.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://chris.blackcoffeeshoppe.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.blackcoffeeshoppe.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.blackcoffeeshoppe.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.mudville.blackcoffeeshoppe.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.mudville.blackcoffeeshoppe.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.chris.blackcoffeeshoppe.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.chris.blackcoffeeshoppe.com$      [NC]
+ErrorDocument 400 /400.shtml
+ErrorDocument 401 /401.shtml
+ErrorDocument 403 /403.shtml
+ErrorDocument 404 /404.shtml
+ErrorDocument 500 /500.shtml
