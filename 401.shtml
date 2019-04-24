@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
 
 <!-- brand css files -->
-<link rel="stylesheet" href="http://blackcoffeeshoppe.com/assets/css/master.css">
+<link rel="stylesheet" href="https://blackcoffeeshoppe.com/assets/css/master.css">
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -54,11 +54,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="content">
 
 <section id="welcome">
-  <div class="logo reveal"><object type="image/svg+xml" data="http://blackcoffeeshoppe.com/assets/img/logo.svg"><img class="reveal" src="http://blackcoffeeshoppe.com/assets/img/logo.png" alt="Black Coffee Shoppe logo"></object></div>
+  <div class="logo reveal"><object type="image/svg+xml" data="https://blackcoffeeshoppe.com/assets/img/logo.svg"><img class="reveal" src="https://blackcoffeeshoppe.com/assets/img/logo.png" alt="Black Coffee Shoppe logo"></object></div>
   <h1 class="reveal">Whoops. You spilled your coffee.</h1>
-  <p class="reveal"><a href="http://blackcoffeeshoppe.com/" style="color: #ffffff;">How about a refill?</a></p>
+  <p class="reveal"><a href="https://blackcoffeeshoppe.com/" style="color: #ffffff;">How about a refill?</a></p>
   <footer>
-    <p>Copyright &copy;2016 Black Coffee Shoppe</p>
+    <p>Copyright &copy;2018 Black Coffee Shoppe</p>
   </footer>
 </section> 
 <!-- close welcome -->
